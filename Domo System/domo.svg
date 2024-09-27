@@ -25,7 +25,7 @@
      inkscape:document-units="px"
      showguides="true"
      inkscape:zoom="0.47692879"
-     inkscape:cx="1838.8489"
+     inkscape:cx="1836.7522"
      inkscape:cy="1069.342"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
@@ -600,94 +600,5 @@
          x="1586.6636"
          y="1627.5353"
          style="font-size:32px;fill:#ffffff">Electrodomésticos</tspan></text>
-    <rect
-       style="fill:#000000;stroke:#000000;stroke-width:0.235548"
-       id="rect3-4-9-3-4"
-       width="302.84207"
-       height="1.4739654"
-       x="-949.2417"
-       y="1630.8668"
-       transform="rotate(-90)" />
-    <rect
-       style="fill:#000000;stroke:#000000;stroke-width:0.11853"
-       id="rect3-0-9-8"
-       width="71.045334"
-       height="1.5909832"
-       x="1632.0406"
-       y="845.99023" />
-    <rect
-       style="fill:#000000;stroke:#000000;stroke-width:0.11853"
-       id="rect3-0-2"
-       width="71.045334"
-       height="1.5909832"
-       x="1632.111"
-       y="741.99017" />
-    <rect
-       style="fill:#2e7bef;fill-opacity:1"
-       id="rect2-51-9-7"
-       width="312.50531"
-       height="70.858765"
-       x="1690.2307"
-       y="706.99615"
-       ry="0"
-       rx="0" />
-    <text
-       xml:space="preserve"
-       style="font-size:42.6667px;line-height:0.8;text-align:center;text-anchor:middle;fill:#ffffff"
-       x="1844.5867"
-       y="757.31085"
-       id="text1-8-0-0-0-6-8"><tspan
-         sodipodi:role="line"
-         id="tspan1-5-8-5-5-3-0"
-         x="1844.5867"
-         y="757.31085"
-         style="font-size:42.6667px;fill:#ffffff">Se</tspan></text>
-    <rect
-       style="display:inline;fill:#2e7bef;fill-opacity:1"
-       id="rect2-51-9-9-1"
-       width="312.50531"
-       height="70.858765"
-       x="1690.5975"
-       y="807.78381" />
-    <text
-       xml:space="preserve"
-       style="font-size:42.6667px;line-height:0.8;text-align:center;text-anchor:middle;fill:#ffffff"
-       x="1844.9535"
-       y="858.09851"
-       id="text1-8-0-0-0-6-9-2"><tspan
-         sodipodi:role="line"
-         id="tspan1-5-8-5-5-3-4-9"
-         x="1844.9535"
-         y="858.09851"
-         style="font-size:42.6667px;fill:#ffffff">H</tspan></text>
-    <rect
-       style="fill:#000000;stroke:#000000;stroke-width:0.11895"
-       id="rect3-0-7-6"
-       width="71.569107"
-       height="1.5905628"
-       x="1630.908"
-       y="948.797" />
-    <g
-       id="g2"
-       transform="translate(722.05314,211.73743)">
-      <rect
-         style="fill:#2e7bef;fill-opacity:1"
-         id="rect2-51-9-4-8"
-         width="312.50531"
-         height="70.858765"
-         x="970.10425"
-         y="699.8031" />
-      <text
-         xml:space="preserve"
-         style="font-size:42.6667px;line-height:0.8;text-align:center;text-anchor:middle;fill:#ffffff"
-         x="1124.4602"
-         y="750.1178"
-         id="text1-8-0-0-0-6-3-6"><tspan
-           sodipodi:role="line"
-           id="tspan1-5-8-5-5-3-5-5"
-           x="1124.4602"
-           y="750.1178"
-           style="font-size:42.6667px;fill:#ffffff">Ea</tspan></text>
-    </g>
   </g>
 </svg>
