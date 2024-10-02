@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <script type='text/javascript' src='ejercicio.js'></script>
+<body bgcolor="#6b6e6e">
+    <form>
+        <table align="center" bgcolor="e3e3e3" cellspacing="0" cellpadding="15">
+            <thead>
+                <tr>
+                    <th colspan="4"><h2 style="color: white">Formulario Total</h2></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr border="0">
+                    <td align="right"><label>Nombre: </label></td>
+                    <td><input type="text" onblur="validarNombre(this)" id="nombre" name="Nombre" style="width: 600px; height: 20px;"/></td>
+                </tr>
+                <tr>
+                    <td align="right"><label>Apellidos: </label></td>
+                    <td><input type="text" id="apellido" name="Apellidos" style="width: 600px; height: 20px;"/></td>
+                </tr>
+                <tr>
+                    <td align="right"><label>e-mail: </label></td>
+                    <td><input type="email" id="email" name="e-mail" style="width: 600px; height: 20px;"/></td>
+                </tr>
+                <tr>
+                    <td align="right"><label>DNI: </label></td>
+                    <td><input type="text" id="dni" name="DNI" style="width: 600px; height: 20px;"/></td>
+                </tr>
+                <tr>
+                    <td align="right"><label>Password: </label></td>
+                    <td><input type="password" id="password" name="Password" style="width: 600px; height: 20px;"/></td>
+                </tr>
+                <tr>
+                    <td align="right"><label>Repetir password: </label></td>
+                    <td><input type="password" id="repetirpassword" name="Password 2" style="width: 600px; height: 20px;"/></td>
+                </tr>
+                <tr>
+                    <td align="right"><label>IP Equipo: </label></td>
+                    <td><input type="text" id="ip" name="IP" style="width: 600px; height: 20px;"/></td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center"><input type="submit" value="Enviar" style="background-color: #236cc0; color: white" /></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    
+    
+</body>
+</html>
