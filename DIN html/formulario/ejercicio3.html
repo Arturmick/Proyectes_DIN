@@ -16,31 +16,31 @@
             <tbody>
                 <tr border="0">
                     <td align="right"><label>Nombre: </label></td>
-                    <td><input type="text" onblur="validarNombre(this)" id="nombre" name="Nombre" style="width: 600px; height: 20px;"/></td>
+                    <td><input type="text" onblur="validar(this,/^([A-Za-zÑñÁáÉéÍíÓóÚú]+['\-]{0,1}[A-Za-zÑñÁáÉéÍíÓóÚú]+)(\s+([A-Za-zÑñÁáÉéÍíÓóÚú]+['\-]{0,1}[A-Za-zÑñÁáÉéÍíÓóÚú]+))*$/)" id="nombre" name="Nombre" style="width: 600px; height: 20px;"/></td>
                 </tr>
                 <tr>
                     <td align="right"><label>Apellidos: </label></td>
-                    <td><input type="text" id="apellido" name="Apellidos" style="width: 600px; height: 20px;"/></td>
+                    <td><input type="text" onblur="validar(this,/^([A-Za-zÑñÁáÉéÍíÓóÚú]+['\-]{0,1}[A-Za-zÑñÁáÉéÍíÓóÚú]+)(\s+([A-Za-zÑñÁáÉéÍíÓóÚú]+['\-]{0,1}[A-Za-zÑñÁáÉéÍíÓóÚú]+))*$/)" id="apellido" name="Apellidos" style="width: 600px; height: 20px;"/></td>
                 </tr>
                 <tr>
                     <td align="right"><label>e-mail: </label></td>
-                    <td><input type="email" id="email" name="e-mail" style="width: 600px; height: 20px;"/></td>
+                    <td><input type="email" onblur="validar(this,/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/)" id="email" name="e-mail" style="width: 600px; height: 20px;"/></td>
                 </tr>
                 <tr>
                     <td align="right"><label>DNI: </label></td>
-                    <td><input type="text" id="dni" name="DNI" style="width: 600px; height: 20px;"/></td>
+                    <td><input type="text" onblur="validar(this,/^\d{2}\.\d{3}\.\d{3}-[A-Z]$/)" id="dni" name="DNI" style="width: 600px; height: 20px;"/></td>
                 </tr>
                 <tr>
                     <td align="right"><label>Password: </label></td>
-                    <td><input type="password" id="password" name="Password" style="width: 600px; height: 20px;"/></td>
+                    <td><input type="password" onblur="validar(this,/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{4,}$/)" id="password" name="Password" style="width: 600px; height: 20px;"/></td>
                 </tr>
                 <tr>
                     <td align="right"><label>Repetir password: </label></td>
-                    <td><input type="password" id="repetirpassword" name="Password 2" style="width: 600px; height: 20px;"/></td>
+                    <td><input type="password" onblur="repetir(this,/^([A-Za-zÑñÁáÉéÍíÓóÚú]+['\-]{0,1}[A-Za-zÑñÁáÉéÍíÓóÚú]+)(\s+([A-Za-zÑñÁáÉéÍíÓóÚú]+['\-]{0,1}[A-Za-zÑñÁáÉéÍíÓóÚú]+))*$/)" id="repetirpassword" name="Password 2" style="width: 600px; height: 20px;"/></td>
                 </tr>
                 <tr>
                     <td align="right"><label>IP Equipo: </label></td>
-                    <td><input type="text" id="ip" name="IP" style="width: 600px; height: 20px;"/></td>
+                    <td><input type="text" onblur="validar(this,/^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/)" id="ip" name="IP" style="width: 600px; height: 20px;"/></td>
                 </tr>
                 <tr>
                     <td colspan="3" align="center"><input type="submit" value="Enviar" style="background-color: #236cc0; color: white" /></td>

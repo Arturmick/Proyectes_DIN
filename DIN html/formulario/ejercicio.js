@@ -1,12 +1,13 @@
 console.log("script");
-function validarNombre(input){
-    this.input = input;
-        console.log("entra");
-        let regExpIp = /^([A-Za-zÑñÁáÉéÍíÓóÚú]+['\-]{0,1}[A-Za-zÑñÁáÉéÍíÓóÚú]+)(\s+([A-Za-zÑñÁáÉéÍíÓóÚú]+['\-]{0,1}[A-Za-zÑñÁáÉéÍíÓóÚú]+))*$/;
 
-        if(regExpIp.exec(input)) {
+
+function validar(input, regExp){
+        
+        console.log("entra");
+        
+        if(regExp.test(input.value)) {
             alert("ok");
-        } else if(!regExpIp.exec(input)){
+        } else if(!regExp.test(input.value)){
             alert("NO");
         }  else (alert ("no funciona"));
 }

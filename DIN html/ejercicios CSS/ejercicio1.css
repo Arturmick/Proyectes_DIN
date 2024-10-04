@@ -1,0 +1,13 @@
+#titulo {
+    color: blue;
+    text-align: center;
+}
+#subtitulo {
+    color:green;
+}
+#parrafoNormal{
+    color:black;
+}    
+#parrafoImportante{
+    color:black;
+}

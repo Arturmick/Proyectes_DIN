@@ -1,0 +1,8 @@
+#listaUnord{
+    color: orange;
+    list-style-type: square;
+}
+#listaOrd{
+    color: purple;
+    list-style-type: decimal-leading-zero;
+}
