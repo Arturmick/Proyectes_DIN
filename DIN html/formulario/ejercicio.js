@@ -6,8 +6,13 @@ function validar(input, regExp){
         console.log("entra");
         
         if(regExp.test(input.value)) {
-            alert("ok");
+            
+            input.classList.add("correcto");
+            input.classList.remove("incorrecto");
+            
         } else if(!regExp.test(input.value)){
-            alert("NO");
+            input.classList.add("incorrecto");
+            input.classList.remove("correcto");
+            
         }  else (alert ("no funciona"));
 }

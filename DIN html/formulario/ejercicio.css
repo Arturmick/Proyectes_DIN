@@ -1,0 +1,6 @@
+.correcto {
+    border-color: 1px solid green;
+}
+.incorrecto {
+    border-color: 1px solid red;
+}
