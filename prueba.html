@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 { grid-area: uno; }
+.item2 { grid-area: dos; }
+.item3 { grid-area: tres; }
+.item4 { grid-area: cuatro; }
+.item5 { grid-area: cinco; }
+
+#uno { grid-area: dosUno; }
+#dos { grid-area: dosDos; }
+#tres { grid-area: dosTres; }
+#cuatro { grid-area: dosCuatro; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'uno uno uno uno uno uno'
+    'dos tres tres tres cuatro cuatro'
+    'dos cinco cinco cinco cinco cinco';
+  background-color: #2196F3;
+  gap: 10px;  
+  padding: 10px;
+}
+.item2 {
+    display: grid;
+    grid-template-areas:
+    'dosUno dosUno'
+    'dosDos .'
+    'dosTres .'
+    'dosCuatro .';
+    gap: 10px;
+    
+}
+.item2 > div {
+    background-color: rgba(11, 197, 11, 0.459);
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="item1">1</div>
+  <div class="item2">2
+    <div id="uno">2.1</div>
+    <div id="dos">2.2</div>
+    <div id="tres">2.3</div>
+    <div id="cuatro">2.4</div>
+  </div>
+  <div class="item3">3</div>  
+  <div class="item4">4</div>
+  <div class="item5">5</div>
+</div>
+
+</body>
+</html>
+
