@@ -1,0 +1,126 @@
+body {
+    font-family: calibri;
+}
+.cabecera {
+    background-color: #ffffff;   
+    text-align: center;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+}
+#logo {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+} 
+.menu {
+    font-size: large;
+    margin-top: 15px;
+    width: 70%;
+    margin-right: 15px;
+    height: 40px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;   
+}
+.menu div {           
+    gap: 10px;
+    cursor: pointer;
+    align-content: center;    
+    width: 8%;
+    height: 40px;
+}
+.menu div:hover {
+    background-color: #899502;
+    color: white;
+    transition: 0.5s;
+}
+#textoGrande {
+    width: 15%;
+}
+.parteArriba,.parteAbajo,.contacto,.pie {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.parteArriba {     
+    height: 700px;    
+}
+#letrasFoto {
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 69.3%;
+    height: auto;    
+}
+#letras {
+    margin-top: 3%;
+    font-size: 40px;
+}
+#botonSolicitar{
+    margin-top: 2%;
+    background-color: #899502;
+    font-size: 23px;
+    align-content: center;
+    color: white;
+    width: 25%;
+    height: 50px;
+    border: 1px solid #677101;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+#fotoPrincipal {
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+}
+#pieParteArriba {
+    display: flex;
+    justify-content: center;   
+    text-align: center;
+    gap: 20%;    
+}
+#pieParteArriba {
+    font-size: 20px;
+}
+.parteAbajo {        
+    align-items: flex-start;   
+    background-color: #677101;     
+    height: 550px;     
+}
+.titulo {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+    width: 100%;
+}   
+.imagenesParteAbajo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    margin: 3% auto;
+    width: 95%;
+    
+}
+.imagenesParteAbajo div {
+    background-color: white;
+    border: 1px solid black;
+    width: 22%;
+    height: 330px;  
+    display: flex;
+    justify-content: center;
+      
+}
+.imagenesParteAbajo img {
+    
+    margin-top: 33%;
+    width: 90%;
+    height: 50%;    
+}
+.contacto {
+   
+}
