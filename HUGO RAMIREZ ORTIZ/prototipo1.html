@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="prototipo1.css" rel="stylesheet">            
+    <title>Domotic System</title>
+    <link href="prototipo.css" rel="stylesheet"> 
+    <link rel="icon" type="image/png" href="imagenes/logoFondoBlanco.png"/>           
 </head>
 <body>
     <div class="cabecera">                
-        <img id="logo" src="imagenes/logo.png" alt="Logo">
+        <img class="logo" src="imagenes/logo.png" alt="Logo">
         <div class="menu">
             <div>INICIO</div>
             <div>CONOCENOS</div>
@@ -17,19 +18,19 @@
             <div id="textoGrande">SOLICITA PRESUPUESTO</div>           
         </div>
     </div>
-    <div class="parteArriba">
+    <div class="parteArriba noSeleccionable">
         <div id="letrasFoto">
             <div id="letras">EXPERTOS EN INTEGRACIÓN<br>TECNOLÓGICA</div>
             <div id="botonSolicitar">SOLICITA PRESUPUESTO</div>
         </div>
         <img id="fotoPrincipal" src="imagenes/parteArribaPrototipo1.png" alt="Casa con domótica">
-        <div id="pieParteArriba">
+        <div id="pieParteArriba" class="noSeleccionable">
             <div id="pieParteArribaIzq"><h1>26</h1><br>PROYECTOS REALIZADOS</div>
             <div id="pieParteaArribaDrch"><h1>6</h1><br>AÑOS DE EXPERIENCIA</div>
         </div>
     </div>
-    <div class="parteAbajo">
-        <div class="titulo">NUESTROS CLIENTES</div>
+    <div class="parteAbajo" >
+        <div class="titulo noSeleccionable texto-borde">NUESTROS CLIENTES</div>
         <div class="imagenesParteAbajo">
             <div><img src="imagenes/philips-vmake.png" alt="Phillips"></div>
             <div><img src="imagenes/ERRE-vmake.png" alt="ERRE"></div>
@@ -37,24 +38,38 @@
             <div><img src="imagenes/Bonaire.png" alt="Bonaire"></div>
         </div>        
     </div>
-    <div class="contacto">
-        <div class="titulo">DATOS DE CONTACTO</div>             
-        <div class="subtitulo">Contacte con nosotros y nos ponemos a trabajar en el diseño de una solución óptima para su 
+    <div class="contacto noSeleccionable">
+        <div class="titulo texto-borde">DATOS DE CONTACTO</div>             
+        <div class="subtitulo ">Contacte con nosotros y nos ponemos a trabajar en el diseño de una solución óptima para su<br> 
             próxima proyecto optimizando presupuestos y eliminando sobre costes y partidas inecesarias</div>       
-        <div>
-            <div>
-                <div>NOMBRE<input type="text" placeholder="Escriba aquí"></div>
-                <div>TELEFONO<input type="text" placeholder="Escriba aquí"></div>                
-                <div>TIPO DE SERVICIO<input type="text" placeholder="Escriba aquí"></div>
+        <div class="formulario texto-borde">
+            <div class="texto-formulario">
+                <div>NOMBRE<br><input type="text" placeholder=""></div>
+                <div>TELEFONO<br><input type="text" placeholder=""></div>                
+                <div>TIPO DE SERVICIO<br><input type="text" placeholder=""></div>
             </div>
             <div>
-                <div>EMPRESA<input type="text" placeholder="Escriba aquí"></div>
-                <div>EMAIL<input type="text" placeholder="Escriba aquí"></div>
-                <div>COMENTARIOS<input type="text" placeholder="Escriba aquí"></div>
+                <div>EMPRESA<br><input type="text" placeholder=""></div>
+                <div>EMAIL<br><input type="text" placeholder=""></div>
+                <div>COMENTARIOS<br><input type="text" placeholder=""></div>
             </div>
-            <div>Enviar</div>
+            <div id="enviar">Enviar</div>
         </div>    
     </div>
-    <div class="pie"></div>    
+    <footer>
+        <div class="pie">
+            <img class="logo" src="imagenes/logo.png" alt="">
+            <p>EXPERTOS EN INTEGRACIÓN TECNOLÓGICA</p>
+            <p>BASES LEGALES Y COPIRIGHT</p>
+        </div>
+        <div class="pie">
+            <p>Tel:1234567890 - 962504122</p>
+            <p>info@domosystem.com</p>
+            <p>CV-278, Km 0,200, 46380 Cheste, Valencia</p>
+            <div id="redesSociales">
+                <img src="imagenes/Intagram.png" alt=""><img src="imagenes/Facebook.png" alt=""><img src="imagenes/twitter.png" alt=""><img src="imagenes/youtube.png" alt="">
+            </div>    
+        </div>
+    </footer>    
 </body>
 </html>

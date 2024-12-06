@@ -1,0 +1,272 @@
+body {
+    font-family: calibri;
+}
+.cabecera {
+    background-color: #ffffff;   
+    text-align: center;
+    padding: 1px;
+    display: flex;
+    margin-left:30px;
+    justify-content: space-between;
+   
+}
+.noSeleccionable {
+    user-select: none;
+}
+.logo {
+    width: 120px;
+    height: auto;    
+} 
+.menu {
+    font-size: large;
+    margin-top: 15px;
+    width: 70%;
+    margin-right: 15px;
+    height: 40px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;   
+}
+.menu div {           
+    gap: 10px;
+    cursor: pointer;
+    align-content: center;    
+    width: 10%;
+    height: 40px;
+}
+.menu div:hover {
+    background-color: #899502;
+    color: white;
+    transition: 0.5s;
+}
+#textoGrande {
+    width: 15%;
+}
+.parteArriba,.parteAbajo,.contacto {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.parteArriba {     
+    height: 700px;    
+}
+.parteArriba2 {
+    height: 100px;
+    text-align: center;
+}
+#letrasFoto {
+    margin-top: 150px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 69.3%;
+    height: auto;    
+}
+#letras {
+    font-size: 40px;
+    margin-bottom: 120px;    
+}
+#botonSolicitar{
+    
+    background-color: #899502;
+    font-size: 23px;
+    align-content: center;
+    color: white;
+    width: 25%;
+    height: 50px;
+    border: 1px solid #677101;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+#fotoPrincipal {
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+}
+#fotoPrincipal3 {
+    width: 100%;
+    height: 75%;
+}
+.ventaInmuebles {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+   gap: 5%;
+    margin-top: 50px;
+    flex-wrap: wrap;  
+
+}
+.recuadro {
+    width: 40%;
+    height: 500px;
+    border: 1px solid black;
+    text-align: center;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.recuadro div {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ventaInmuebles img {   
+    margin-top: 2px; 
+    width: 90%;
+    height: 70%;
+    object-fit: contain;
+}
+#pieParteArriba {
+    display: flex;
+    justify-content: center;   
+    text-align: center;
+    
+    gap: 20%;    
+}
+#pieParteArriba {
+    font-size: 18px;
+}
+#pieParteaArribaDrch {
+    margin-top: -20px;
+}
+.parteAbajo {        
+    align-items: flex-start;   
+    background-color: #677101;     
+    height: 550px; 
+    margin-top: 50px;    
+}
+.titulo {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+    width: 100%;
+}   
+#sevicios {
+    margin-top: 40px;    
+    text-align: center;    
+    display: flex;
+    flex-wrap: wrap;    
+    gap: 3%;    
+    justify-content: center;
+}
+#sevicios div {  
+    font-size: 20px;
+    font-weight: bold;
+    align-content: center;
+    width: 350px;
+    height: 90px;
+    border: 1px solid black;
+    background-color: white;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.imagenesParteAbajo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    margin: 3% auto;
+    width: 95%;
+    
+}
+.imagenesParteAbajo div {
+    background-color: white;
+    border: 1px solid black;
+    width: 22%;
+    height: 330px;  
+    display: flex;
+    justify-content: center;
+      
+}
+.imagenesParteAbajo img {
+    
+    margin-top: 33%;
+    width: 90%;
+    height: 50%;    
+}
+.texto-borde {
+    color: white; 
+    text-shadow: 
+        -1px -1px 0 black, 
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;    
+    font-weight: bold;
+}
+.subtitulo {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    
+    width: 100%;
+    font-weight: bold;
+}
+.formulario {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 30%;
+    font-size: 25px;
+}
+.texto-formulario div {
+    width: 170%;
+}
+
+.formulario input{
+    width: 200%;
+    height: 40px;
+}
+#enviar {
+    margin-top: 185px;
+    border: 1px solid black;
+    width: 400%;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+    align-content: center;
+}
+.compatibilidad {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.compatibilidad img {
+    width: 200px;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    object-fit: contain;
+    
+}
+footer {
+    margin-top: 20px;
+    background-color: #899502;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;  
+    font-weight: bold; 
+    margin-left: -15px;
+    margin-bottom: -10px;
+    margin-right: -8px;
+    
+}
+footer div {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#redesSociales img{
+    width: 25px;
+    height: auto;
+    cursor: pointer;
+   margin-right: 5px;
+
+}
+.pie {
+    margin-top: 25px;
+}
